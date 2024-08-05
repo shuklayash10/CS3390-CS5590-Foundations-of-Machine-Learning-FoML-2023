@@ -1,0 +1,85 @@
+2.ReadRegressionModelsforOrdinalDatabyPeterMcCullagh(pleasefindattached).a.Provideabriefsummaryofthepaper.Explainhowthelikelihoodandoddsratioforordinalregressionisdifferentfrommulti-classclassification.Howisitdifferentfromtheregressionproblems?
+b.Explainandderivetheparameterestimationtechniquefortheordinallikelihooddescribedinthepaper.c.ConsidertheWINEdataset(https://archive.ics.uci.edu/dataset/186/wine+quality).DevelopanordinalregressionmodelinPythontopredicttheratingofthewinebasedontheinputfeatures.Youmayconsider20%ofthedatafortestingpurpose.Also,proposeanappropriateevaluationmetricandcomparetheresultwithalinearregressionmodel.Youmayuseexistingordinalregressionandlinearregressionpackages.Marks:7.5(a)+7.5(b)+15(c)=30+10(readablecode)=40
+
+
+
+Regression models for ordinal data
+
+
+summary :   A general class of regression models for ordinal data is developed and discussed. These models utilize the ordinal nature of the data by describing various modes of stochastic ordering and this eliminates the need for assigning scores or otherwise assuming cardinality instead of ordinality. Two models in particular, the proportional odds and the proportional hazards models are likely to be most useful in practice because of the simplicity of their interpretation. These linear models are shown to be multivariate extensions of generalized linear models. Extensions to non-linear models are discussed and it is shown that even here the method of iteratively reweighted least squares converges to the maximum likelihood estimate, a property which greatly simplifies the necessary computation. Applications are discussed with the aid of examples. 
+
+
+purpose of the paper : is to investigate structural models appropriate to measurements on a purely ordinal scale 
+
+this paper is devoted solely to the case where there is a single response measured on an ordinal scale,there being possibly multiple explanatory factors or covariates
+
+1. introduction
+2. the proportional odds model
+3. the proportional hazards model
+4. properties of related linear models
+5. more complex covariate structure
+6. parameter estimation in the general model
+7. alternative models and the scope of possible inferences
+8. an analysis of residuals
+
+acknowledgements
+appendix 
+-fitting the general non linear model
+
+discussion of dr mccullagh's paper
+
+
+keywords :
+
+COMPLEMENTARY LOG-LOG TRANSFORM;
+ GENERALIZED EMPIRICAL LOGIT TRANSFORM;
+ LINK FUNCTION; LOCATION PARAMETER;
+ LOG-4INEAR MODEL;
+ LOGIT LINEAR MODEL;
+ MULTIVARIATE GENERALIZED LINEAR MODEL;
+ ORDERED CATEGORIES; 
+PROPORTIONAL HAZARDS;
+ PROPORTIONAL ODDS;
+ SCALE PARAMETER;
+ SCORES;
+ SURVIVOR FUNCTION
+
+
+goal of this research paper == ?
+
+important terms : structural models means what ?
+qualitative data means what?
+classification of intermidate types of scale means what?
+
+
+see stevens (1951,1958,1968) distinguishes norminal , ordinal , among the categories
+
+bivariate response means data?
+
+see anscombe (1970) for modelling bivariate ordinal responses is to develop models based on the so called cross-ratio distributions (pearson ,1913, plackett ,1965)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
